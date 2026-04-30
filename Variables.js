@@ -34,3 +34,10 @@ let y = s++; // 1st we want to store whaterver the value s before increment to t
 console.log(s);
 console.log(y);
 console.log(z);
+
+let s = "JavaScript";
+let result = "";
+for (let i = s.length - 1; i >= 0; i--) {
+  result = result + s[i];
+}
+console.log("Reverse of String :" + result);
